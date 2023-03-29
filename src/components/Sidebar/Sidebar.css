@@ -1,0 +1,41 @@
+.sidebar {
+  height: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  overflow-y: scroll;
+}
+
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 100%;
+  padding: 0px 1rem;
+}
+
+.sidebar__list-dropdown__title-wrapper {
+  width: 100%;
+  cursor: pointer;
+}
+
+.sidebar__list-dropdown__title-text {
+  color: rgb(63, 151, 252);
+  font-size: 1rem;
+}
+
+.sidebar__list-dropdown__child-wrapper {
+  padding-left: 1rem;
+}
+
+.sidebar__list-dropdown__child-list {
+  border-left: 3px solid rgb(218, 218, 218);
+  padding-left: 1rem;
+}
+
+.sidebar__list-dropdown__child-list__item {
+  cursor: pointer;
+}
+
+.sidebar__list-dropdown__child-list__item-wrapper {
+  width: 100%;
+}
